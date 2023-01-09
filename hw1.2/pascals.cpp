@@ -17,15 +17,17 @@ int main(){
         arr[i] = temp;
     }
     for(int i = 0; i<8; i++){
-        int count = 8-i;
+        int count = 9-i;
         while(count > 0){
-            cout<<" ";
+            cout<<"  ";
             count--;
         }
         for(int j = 0; j< arr[i].size(); j++){
-            
-            cout<<arr[i][j]<<" ";
-            
+            if(arr[i][j] < 10)
+                cout<<" "<<arr[i][j]<<"  ";
+            else
+                cout<<arr[i][j]<<"  ";
+        count = i;
         }
         cout<<"\n";
     }
