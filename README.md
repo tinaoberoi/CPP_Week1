@@ -9,7 +9,7 @@
 - This has the pascals code.
 - The code presents the pascals triangle as:
 
-![Pascals Triangle] (./hw1.2/images/pascals.png)
+![Pascals Triangle](/hw1.2/images/pascals.png)
 
 ## HW 1.4
 - This folder has two files, one is failcpp.c which has c code that works for c.
